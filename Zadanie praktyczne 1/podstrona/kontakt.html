@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputery</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <div id="blok">
+        <!-- baner -->
+        <div id="banner">
+            <img id="banner_www" src="../img/banner.png" alt="Pogotowie komputerowe">
+        </div>
+
+        <!-- menu -->
+        <div id="menu">
+            <a class="linki_menu" href="../index.html">Strona Główna</a>
+            <a class="linki_menu" href="#">Kontakt</a>
+        </div>
+
+        <!-- bloki -->
+        <div id="blok1">
+            <h3></h3>
+            <p></p>
+        </div>
+
+        <div id="blok2">
+            <h2>Kontakt</h2>
+            <form action="mailto:anna@poczta.pl" ?subject="kontakt" method="post">
+                <table>
+                    <!-- imię -->
+                    <tr>
+                        <td>
+                            <p>Imię:</p>
+                        </td>
+                        <td><input type="text" name="imie" value="" size="30" /></td>
+                    </tr>
+                    <!-- nazwisko -->
+                    <tr>
+                        <td>
+                            <p>Nazwisko:</p>
+                        </td>
+                        <td><input type="text" name="nazwisko" value="" size="30" /></td>
+                    </tr>
+                    <!-- e-mail -->
+                    <tr>
+                        <td>
+                            <p>E-mail:</p>
+                        </td>
+                        <td><input type="adres" name="e-mail" value="" size="30" /></td>
+                    </tr>
+                    <!-- zgłoszenie -->
+                    <tr>
+                        <td>
+                            <p>Zgłoszenie:</p>
+                        </td>
+                        <td>
+                            <select size="1" name="zgloszenie">
+                                <option>naprawa komputerów</option>
+                                <option>odzyskiwanie danych</option>
+                                <option>wirusy</option>
+                                <option>konfiguracja LAN</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" name="zaznaczenie" maxlength="1" checked />
+                            Wyślij kopię wiadomości
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input class="reset" type="reset" name="czyszczenie" value="Czyść" />
+                            <input class="submit" type="submit" name="wysłanie" value="Wyślij" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <hr>
+        </div>
+
+        <div id="blok3">
+            <h3></h3>
+        </div>
+
+        <!-- stopka -->
+        <div id="stopka">
+            <p class="p_stopka">Autor: <em>Jacek</em></p>
+        </div>
+    </div>
+
+</body>
+
+</html>

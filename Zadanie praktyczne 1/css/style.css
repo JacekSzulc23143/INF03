@@ -1,0 +1,105 @@
+/* cała strona */
+body {
+	background-color: #e0f7fa;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+span {
+	text-transform: uppercase;
+}
+
+table {
+	display: inline;
+	text-align: center;
+}
+
+hr {
+	width: 400px;
+}
+
+select {
+	width: 245px;
+}
+
+/* kontener całej strony */
+#blok {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* baner */
+#banner {
+	background-color: #00838f;
+	height: 200px;
+}
+
+/* menu */
+#menu {
+	background-color: #006064;
+	padding: 15px;
+}
+
+/* odsyłacze w menu */
+.linki_menu {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 150%;
+	margin: 15px;
+}
+
+#blok1 {
+	float: left;
+	height: 350px;
+	width: 33%;
+}
+
+#blok2 {
+	float: left;
+	height: 350px;
+	width: 33%;
+}
+
+#blok3 {
+	float: left;
+	height: 350px;
+	width: 33%;
+}
+
+/* stopka */
+#stopka {
+	clear: both;
+	background-color: #006064;
+	color: #ffffff;
+	text-align: right;
+	padding: 10px;
+}
+
+.p_stopka {
+	margin: 5px;
+}
+
+/* selektor listy punktowanej */
+.list {
+	text-align: left;
+}
+
+/* selektor przycisków */
+.reset {
+	background-color: #00838f;
+	color: #ffffff;
+}
+
+.submit {
+	background-color: #00838f;
+	color: #ffffff;
+}
+
+.reset:hover {
+	color: #80deea;
+}
+
+.submit:hover {
+	color: #80deea;
+}

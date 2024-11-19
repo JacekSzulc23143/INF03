@@ -1,0 +1,82 @@
+/* cała strona */
+* {
+	font-family: Helvetica, sans-serif;
+}
+
+/* wspólne dla banera i stopki*/
+#banner,
+#stopka {
+	background-color: #00838f;
+	color: #ffffff;
+	/* margines wewnętrzny 5px */
+	padding: 5px;
+	font-size: 130%;
+	text-align: center;
+}
+
+/* stopka */
+#stopka {
+	clear: both;
+}
+
+/* wspólne dla obu bloków lewych  */
+.content {
+	background-color: #efefef;
+	width: 55%;
+	float: left;
+}
+
+/* dwa bloki lewe */
+#blok1 {
+	float: left;
+	height: 150px;
+	width: 100%;
+}
+
+#blok2 {
+	float: left;
+	height: 300px;
+	width: 100%;
+}
+
+/* blok prawy */
+#blok3 {
+	float: left;
+	background-color: #4fb3bf;
+	width: 45%;
+	height: 450px;
+	text-align: center;
+}
+
+/* obrazek */
+img {
+	margin: 20px;
+}
+
+/* selektor tabeli, komórek tabeli, komórek nagłówkowych */
+table,
+th,
+td {
+	/* obramowanie tabeli i komórek połączone */
+	border-collapse: collapse;
+	border: 1px solid #4fb3bf;
+}
+
+/* selektor tabeli */
+table {
+	/* margines zewnętrzny */
+	margin: auto;
+	width: 80%;
+}
+
+/* selektor komórek tabeli i nagłówkowych */
+th,
+td {
+	/* margines wewnętrzny 4px */
+	padding: 4px;
+}
+
+/* kursor po najechaniu */
+tr:hover {
+	background-color: #4fb3bf;
+}

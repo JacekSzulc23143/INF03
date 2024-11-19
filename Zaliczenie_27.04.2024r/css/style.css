@@ -1,0 +1,72 @@
+body {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tresc p {
+	text-align: justify;
+	padding: 0px 10px 0px 10px;
+}
+
+#stopka p {
+	color: #fff;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	padding: 0px 10px 0px 10px;
+}
+
+header {
+	background-color: #39a7ff;
+}
+
+#menu_lewe {
+	background-color: #87c4ff;
+	width: 10%;
+	height: 510px;
+	float: left;
+}
+
+#tresc {
+	background-color: #cdf5fd;
+	width: 90%;
+	height: 510px;
+	float: left;
+}
+
+footer {
+	background-color: #4e89c4;
+	text-align: center;
+	padding: 1px;
+	clear: both;
+}
+
+.logo {
+	width: 10%;
+	height: auto;
+	padding: 5px;
+}
+
+.realizacje {
+	width: 30%;
+	height: auto;
+	padding: 5px;
+}
+
+#menu_lewe a {
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+}
+
+#menu_lewe a:hover {
+	color: #fff;
+}
+
+.form {
+	margin-left: 10px;
+}

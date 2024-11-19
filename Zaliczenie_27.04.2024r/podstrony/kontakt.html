@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBMAJSTER</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- nagłówek -->
+    <header>
+        <a href="../index.html"><img class="logo" src="../grafika/logo_webmajster.png" alt="Logo WEBMAJSTER"></a>
+    </header>
+
+    <!-- lewe menu -->
+    <div id="menu_lewe">
+        <p></p>
+        <div><a href="../podstrony/o_firmie.html">o firmie</a></div>
+        <p></p>
+        <div><a href="../podstrony/realizacje.html">realizacje</a></div>
+        <p></p>
+        <div><a href="../podstrony/kontakt.html#">kontakt</a></div>
+    </div>
+
+    <!-- treść strony -->
+    <div id="tresc">
+        <h1>Napisz do nas</h1>
+        <form action="mailto:kontakt@webmajster.pl" method="post">
+            <p>Nazwisko:</p>
+            <input class="form" type="text" name="nazwisko" size="30">
+            <p>Imię:</p>
+            <input class="form" type="text" name="imie" size="30">
+            <p>E-mail:</p>
+            <input class="form" type="email" name="E-mail">
+            <p></p>
+            <textarea class="form" name="wiadomosc" cols="25" rows="5">tu wpisz swoją wiadomość…</textarea>
+            <p></p>
+            <input class="form" type="submit" name="wyslanie" value="Wyślij">
+            <input type="reset" name="czyszczenie" value="Wyczyść">
+        </form>
+    </div>
+
+    <!-- stopka -->
+    <footer id="stopka">
+        <p>Webmajster - Tworzenie witryn internetowych &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>

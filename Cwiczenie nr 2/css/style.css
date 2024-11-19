@@ -1,0 +1,100 @@
+p {
+	text-align: justify;
+	padding: 0px 10px 0px 10px;
+}
+
+table {
+	text-align: justify;
+	padding: 0px 10px 0px 7px;
+}
+
+h1 {
+	padding: 0px 10px 0px 10px;
+}
+
+h2 {
+	padding: 0px 10px 0px 10px;
+}
+
+h3 {
+	padding: 0px 10px 0px 10px;
+}
+
+#blok {
+	width: 90%; /* szerokość strony */
+	margin-left: auto; /* margines od lewej */
+	margin-right: auto; /* margines od prawej */
+}
+
+#logo {
+	background-color: #6599e0;
+}
+
+#menu {
+	background-color: #00609e;
+	padding: 15px; /* poduszka :) */
+}
+
+#menu_lewe {
+	float: left;
+	background-color: #f8b31a;
+	width: 10%;
+	height: 358px;
+}
+
+#menu_lewe2 {
+	float: left;
+	background-color: #f8b31a;
+	width: 10%;
+	height: 598px;
+}
+
+#tresc {
+	float: left; /* dociągnięcie do lewej */
+	background-color: #f5f5dc;
+	width: 90%;
+	/* min-height: 50%; */
+	/* padding-left: 1px; */
+	/* text-align: justify; */
+}
+
+#stopka {
+	clear: both;
+	background-color: #0464a4;
+	text-align: center;
+	padding: 1px;
+}
+
+a:hover {
+	background-color: #3a73c1;
+	padding: 15px;
+}
+
+.linki_menu {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px;
+	border-left: 1px dotted #cccccc;
+	border-right: 1px dotted #cccccc;
+}
+
+.linki_menu2 {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 15px;
+	border-left: 1px dotted #cccccc;
+	border-right: 1px dotted #cccccc;
+    background-color: #6599e0;
+}
+
+.p_stopka {
+	text-align: center;
+	color: white;
+}
+
+#logo_www {
+	width: 8%;
+	height: auto;
+	min-width: 60px;
+	padding: 5px;
+}
