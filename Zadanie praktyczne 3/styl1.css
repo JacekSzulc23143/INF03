@@ -1,0 +1,58 @@
+body {
+	font-family: Helvetica, sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.lewy {
+	background-color: navy;
+	color: #fff;
+	height: 700px;
+	width: 25%;
+	float: left;
+}
+
+.prawy {
+	background-color: royalblue;
+	height: 100px;
+	width: 75%;
+	text-align: center;
+	float: left;
+}
+
+.prawy2 {
+	background-color: steelblue;
+	height: 300px;
+	width: 75%;
+	float: left;
+}
+
+.prawy3 {
+	background-color: royalblue;
+	height: 300px;
+	width: 75%;
+	text-align: center;
+	float: left;
+}
+
+.footer {
+	background-color: SteelBlue;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+
+h1 {
+	letter-spacing: 5px;
+	/* text-transform: uppercase; */
+}
+
+.form {
+	margin: 30px;
+	line-height: 3;
+}
+
+img {
+	height: 90%;
+}
