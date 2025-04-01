@@ -133,6 +133,10 @@ main h2 {
 	text-align: justify;
 }
 
+.ff {
+	margin-left: 19px;
+}
+
 .video {
 	margin-left: 25px;
 	margin-bottom: 5px;
@@ -151,15 +155,30 @@ main h2 {
 .services-list {
 	margin: 0 auto;
 	width: 80%;
+	text-align: center;
+}
+
+.offer-p a {
+	text-decoration: none;
+	border: 1px solid rgb(140 140 140);
+	border-radius: 5px;
+	color: rgb(5, 73, 56);
+	padding: 10px 20px;
+	transition: background-color 0.3s;
+}
+
+.offer-p a:hover {
+	background-color: rgba(98, 167, 126, 0.5);
+}
+
+.offer-p a:visited {
+	color: blue;
 }
 
 .picture2,
 .picture3 {
-	position: relative;
-	top: 163px;
-	left: 236px;
-	transform: translate(-50%, -50%);
-	padding-top: 68px;
+	margin-top: 24px;
+	margin-bottom: 25px;
 	width: 49%;
 }
 
@@ -185,8 +204,8 @@ thead {
 	background-color: rgb(228, 245, 228);
 }
 
-td:last-of-type {
-	text-align: center;
+td:first-of-type {
+	text-align: left;
 }
 
 tbody > tr:nth-of-type(even) {
