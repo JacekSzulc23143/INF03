@@ -168,15 +168,9 @@ main h2 {
 }
 
 .offer-p a:hover {
-	/* background-color: rgba(98, 167, 126, 0.5); */
-	box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 
-	0 0 0 2px white,
-	0.3em 0.3em 1em rgb(98 167 126 / 60%);
+	box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0 0 0 2px white,
+		0.3em 0.3em 1em rgb(98 167 126 / 60%);
 }
-
-/* .offer-p a:visited {
-	color: blue;
-} */
 
 .picture2,
 .picture3 {
@@ -267,7 +261,7 @@ input::placeholder {
 	margin-left: 220px;
 }
 
-.maps{
+.maps {
 	padding-top: 30px;
 	width: 1191px;
 	height: 234px;
