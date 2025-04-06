@@ -154,6 +154,13 @@ main h2 {
 	float: left;
 }
 
+blockquote::before {
+	color: rgb(160, 88, 36);
+	font-family: Courier;
+	font-size: 28px;
+	content: "Witamy!";
+}
+
 .line::first-line {
 	color: rgb(160, 88, 36);
 	font-family: Courier;
@@ -164,13 +171,6 @@ main h2 {
 	color: rgb(160, 88, 36);
 	font-family: Courier;
 	font-size: 28px;
-}
-
-blockquote::before {
-	color: rgb(160, 88, 36);
-	font-family: Courier;
-	font-size: 28px;
-	content: "Witamy!";
 }
 
 .letter::after {
