@@ -154,6 +154,32 @@ main h2 {
 	float: left;
 }
 
+.line::first-line {
+	color: rgb(160, 88, 36);
+	font-family: Courier;
+	font-size: 28px;
+}
+
+.letter::first-letter {
+	color: rgb(160, 88, 36);
+	font-family: Courier;
+	font-size: 28px;
+}
+
+blockquote::before {
+	color: rgb(160, 88, 36);
+	font-family: Courier;
+	font-size: 28px;
+	content: "Witamy!";
+}
+
+.letter::after {
+	color: rgb(160, 88, 36);
+	font-family: Courier;
+	font-size: 28px;
+	content: "DZIĘKUJEMY";
+}
+
 /* oferta */
 .services-list {
 	margin: 0 auto;
