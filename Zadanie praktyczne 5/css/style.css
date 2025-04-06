@@ -32,6 +32,13 @@ body {
 	letter-spacing: 2px;
 }
 
+.header-logo {
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 10px;
+	z-index: 5;
+}
+
 .header-bg {
 	position: absolute;
 	height: 100%;
